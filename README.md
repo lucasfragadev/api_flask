@@ -3,16 +3,6 @@
 
 Este projeto é uma API RESTful simples construída com Flask, que utiliza um banco de dados MySQL para gerenciar um sistema CRUD (Create, Read, Update, Delete) para Alunos e Professores. Ele inclui funcionalidades para criar, ler, atualizar e deletar registros de alunos e professores, usando Flask e SQLAlchemy como ORM.
 
-## Requisitos
-
-Certifique-se de que os seguintes softwares estão instalados em seu ambiente de desenvolvimento:
-
-- Python 3.7+
-- MySQL Server
-- Flask
-- Flask-SQLAlchemy
-- mysql-connector-python
-
 ### Instalação de Dependências
 
 Você pode instalar as dependências do projeto com o comando:
@@ -20,8 +10,6 @@ Você pode instalar as dependências do projeto com o comando:
 ```bash
 pip install -r requirements.txt
 ```
-
-(O arquivo `requirements.txt` deve incluir os seguintes pacotes: `Flask`, `Flask-SQLAlchemy`, `mysql-connector-python`.)
 
 ## Configuração do Banco de Dados
 
@@ -105,10 +93,6 @@ Resposta:
 ### Deletar um Aluno (DELETE /alunos/<id>)
 
 Nenhum corpo é necessário para essa requisição. O aluno será removido.
-
-## Contribuições
-
-Sinta-se à vontade para contribuir com o projeto abrindo issues e enviando pull requests.
 
 ## Licença
 
